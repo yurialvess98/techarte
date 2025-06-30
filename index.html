@@ -3,35 +3,77 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bem vinda Ingrid!</title>
+  <title>Bem-vinda Ingrid!</title>
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/hover.css" />
+  <link rel="stylesheet" href="css/fundo.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Libertinus+Math&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <div id="app">
     <header id="header">Credits by: Lilo, Alladin e Benjamin</header>
 
-    <!-- Conteúdo principal -->
     <main>
       <section class="intro">
+        <img src="assets/kitie-2.jpg" alt="Imagem de fundo" class="back-title" />
         <h1>Bem-vinda Ingrid!</h1>
         <p>Um repositório feito de você para você!</p>
+        
       </section>
+      
 
-      <section class="presenting">
-        <h2 class="title">Introdução</h2>
-        <div class="card">
-          <h3>Apresentando o Quadro:</h3>
+<div class="fundo-video">
+  <video autoplay muted loop id="video-fundo">
+    <source src="assets/novo.mp4" type="video/mp4" />
+  </video>
+
+
+  <div class="cctitulo">
+    <h2 class="class123">Transferência Emocional nas Relações Amorosas</h2>
+
+        <div class="cartao" onclick="toggleCartao(this)">
+          <div class="cartao-cabeca">Clique para expandir</div>
+          <div class="cartao-conteudo">
+            <p><strong>Entendendo a Transferência Emocional:</strong><br>
+            A transferência emocional ocorre quando alguém projeta padrões emocionais antigos em um parceiro atual. Isso pode envolver expectativas ou reações que não estão necessariamente relacionadas ao comportamento real do parceiro, mas sim a experiências passadas.</p>
+
+            <p><strong>Sinais de Transferência Emocional:</strong><br>
+            - Comparações com ex-parceiros<br>
+            - Reações extremas e injustificadas<br>
+            - Evitação emocional<br>
+            - Acusações repetitivas</p>
+
+            <p><strong>Estratégias para Lidar com a Transferência:</strong><br>
+            - Consciência do Mecanismo<br>
+            - Diálogo Empático<br>
+            - Estabelecimento de Fronteiras Saudáveis<br>
+            - Apoio Terapêutico</p>
+
+            <p><strong>Reflexões Pessoais e Lições Aprendidas:</strong><br>
+            A narrativa apresentada reflete um profundo autoexame e conscientização. Sentimentos de uso e instrumentalização foram identificados, revelando a complexidade das emoções envolvidas.</p>
+
+            <p>Essas reflexões podem guiar futuros relacionamentos para uma dinâmica mais saudável e consciente. Ao enfrentar e compreender a transferência emocional, é possível construir conexões mais genuínas e satisfatórias.</p>
+
+            <img src="assets/imagem.jpg" alt="Exemplo" />
+          </div>
         </div>
-        <div class="card-desc">
-          <p class="descrição-transferência">Transferência Emocional é um conceito que explora as variadas reações e impactos nos relacionamentos interpessoais de pessoas que sofreram, de alguma forma, abusos ou opressões. Este quadro visa proporcionar uma compreensão mais profunda dessas dinâmicas e oferecer suporte às pessoas afetadas.</p>
-
-      -</section>
+      </div>
+    </div>
     </main>
 
-    <!-- Footer será inserido aqui pelo JS -->
     <footer id="footer"></footer>
   </div>
 
+  <script>
+    function toggleCartao(elemento) {
+      elemento.classList.toggle("ativo");
+    }
+  </script>
 </body>
 </html>

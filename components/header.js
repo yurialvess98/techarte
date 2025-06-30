@@ -1,8 +1,8 @@
 export function renderHeader() {
     const header = document.createElement('header');
     header.innerHTML = `
-      <h1>TechArte</h1>
-      <p>Inovação inspirada pela arte e ficção científica</p>
+    <h1>Bem-vinda Ingrid!</h1>
+      <p>Um repositório feito de você para você!</p>
     `;
     return header;
   }
