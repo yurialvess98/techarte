@@ -7,7 +7,7 @@
   
   body {
     font-family: 'Inter', sans-serif;
-    background-color: #ffffffbe;
+    background-color: #000000be;
     color: #000000;
     line-height: 1.6;
   }
@@ -37,6 +37,8 @@
     text-align: center;
     padding: 3rem 2rem 1rem;
     font-family: "Libertinus Math", system-ui;
+    z-index: 2;
+    border-color: aliceblue;
   }
   
   .intro h1 {
