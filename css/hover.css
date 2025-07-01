@@ -1,4 +1,4 @@
-.cartao {
+.cartao .cartao2 {
   width: 100%;
   max-width: 99999px;
   margin: 20px auto;
@@ -22,10 +22,24 @@
   overflow: hidden;
   opacity: 0;
   padding: 0 16px;
-  transition: all 1s ease;
+  transition: all 1.5s ease;
 }
 
 .cartao.ativo .cartao-conteudo {
+  max-height: 9999px; /* ajuste conforme o conteúdo */
+  opacity: 1;
+  padding: 16px;
+}
+
+.cartao-conteudo2 {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  padding: 0 16px;
+  transition: all 1.5s ease;
+}
+
+.cartao2.ativo .cartao-conteudo2 {
   max-height: 9999px; /* ajuste conforme o conteúdo */
   opacity: 1;
   padding: 16px;

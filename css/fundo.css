@@ -25,4 +25,8 @@
   z-index: -1;
   border-radius: 9px;
 }
+a {
+  color: #00aaff;
+  text-decoration: underline;
+}
 

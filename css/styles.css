@@ -98,8 +98,19 @@
   font-style: italic;
   font-family: "Libertinus Math", system-ui;
 }
-.cartao-conteudo {
+.cartao-conteudo, .cartao-conteudo2 {
   font-family: "Libertinus Math", system-ui;
   font-size: 1.2rem;
   color: #ffffffb4;
+}
+
+  .baixo {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #f8f8f898;
+  }
+  .alinhar {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
 }
